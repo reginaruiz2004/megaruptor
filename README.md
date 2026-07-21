@@ -82,7 +82,7 @@ Key engineering choices and their rationale are documented in [`docs/DECISIONS.m
 
 - [x] Source components (NEMA 17, A4988, Arduino Uno R3, syringes)
 - [x] Design custom parts (sleeve adapter, Eppendorf bracket)
-- [ ] 3D print all components
+- [x] 3D print all components
 - [ ] Full mechanical assembly
 - [ ] Firmware integration and motor control testing
 - [ ] Validation with real DNA samples (fragment size distribution vs. commercial shearing)
