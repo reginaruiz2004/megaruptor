@@ -11,6 +11,8 @@ All prices in **MXN (Mexican pesos)**, sourced locally by the author. Links/vend
 | `syringe_holder` | Holds the syringe barrel |
 | `motor_mount` | NEMA 17 motor mount |
 
+![3D Printed Parts](images/3D_Printed_Materials.png)
+
 > Custom parts (sleeve adapter, Eppendorf bracket) are tracked separately — see [Design Decisions](DECISIONS.md).
 
 ### Print Settings
@@ -51,6 +53,7 @@ All prices in **MXN (Mexican pesos)**, sourced locally by the author. Links/vend
 | Auto shutoff system | — |
 | Zip ties | 41.00 |
 
+![Electrical & Mechanical Components](images/Electrical_Mechanical.png)
 ---
 
 ## Total (approx.)
