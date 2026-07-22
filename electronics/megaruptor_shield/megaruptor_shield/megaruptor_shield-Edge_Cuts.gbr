@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.4*%
+%TF.CreationDate,2026-07-21T19:50:04-06:00*%
+%TF.ProjectId,megaruptor_shield,6d656761-7275-4707-946f-725f73686965,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.4) date 2026-07-21 19:50:04*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X108500000Y-56500000D02*
+X164000000Y-56500000D01*
+X164000000Y-125100000D01*
+X108500000Y-125100000D01*
+X108500000Y-56500000D01*
+M02*

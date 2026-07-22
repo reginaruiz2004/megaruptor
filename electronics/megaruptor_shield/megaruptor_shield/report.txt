@@ -1,0 +1,18 @@
+Info: Processing symbol 'A2:Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical'.
+Info: Processing symbol 'J2:Connector_BarrelJack:BarrelJack_Horizontal'.
+Info: Processing symbol 'J5:Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical'.
+Info: Processing symbol 'M1:TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal'.
+Info: Processing symbol 'SW1:TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal'.
+Info: Processing symbol 'SW2:Button_Switch_THT:SW_Lever_1P2T_NKK_GW12LxH'.
+Warning: No net found for component J2 pad 3 (no pin 3 in symbol).
+Warning: No net found for component J5 pad 2 (no pin 2 in symbol).
+Warning: No net found for component J5 pad 4 (no pin 4 in symbol).
+Warning: No net found for component J5 pad 3 (no pin 3 in symbol).
+Warning: No net found for component J5 pad 1 (no pin 1 in symbol).
+Error: J5 pad D5 not found in Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical.
+Error: J5 pad D8 not found in Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical.
+Error: J5 pad GND not found in Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical.
+Error: J5 pad D2 not found in Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical.
+
+
+Info: Total warnings: 5, errors: 4.
