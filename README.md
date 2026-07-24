@@ -89,6 +89,22 @@ Key engineering choices and their rationale are documented in [`docs/DECISIONS.m
 
 ---
 
+## Progress Log
+
+### July 2026
+Mechanical assembly in progress. Key steps completed this round:
+
+- Drilled out the rod holes on the 3D-printed PLA parts to fit the guide rods — the as-printed tolerances were too tight, so holes were carefully widened with a drill bit until the rods slid through smoothly.
+- Installed screws on all designated screw holes across the printed parts to secure the frame.
+- Threaded the brass (gold) lead screw nut onto the central leadscrew and secured it inside the carriage's nut trap with M3 screws, so it stays anti-rotated — this is what converts the leadscrew's rotation into linear motion, pulling the carriage along the two guide rods instead of just spinning freely with the screw.
+- Mounted the carriage onto the guide rods and confirmed it slides smoothly along the full travel range by turning the leadscrew by hand.
+
+![Progress Megaruptor](docs/images/foto1.jpeg)
+
+📹 [Watch the assembly video](ProgressJuly.mp4)
+
+---
+
 ## Acknowledgments
 
 This project builds on the open-source [Poseidon](https://github.com/machineagency/poseidon) syringe pump platform. Full credit to the original design team for the foundational mechanical design this project adapts.
