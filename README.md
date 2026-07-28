@@ -117,6 +117,7 @@ Key steps completed this round:
 - Once all four drivers were calibrated to 0.96V, proceeded to connect the NEMA 17 stepper motor.
 - **Note:** Many NEMA 17 motors ship with connectors where the wire color order differs between the motor and driver ends. This was the case here — the pin order did not match. To correct it, I released the terminals from the connector housing using a small screwdriver and reseated them in the correct sequence.
 - Connected the NEMA 17 motor to the CNC shield via the X-axis A4988 driver.
+- Stripped two jumper wires and connected them to the CNC shield's positive (+) and negative (–) power terminals to interface with the barrel jack adapter.
 
 ![Driver Calibration](docs/images/july27calibration.jpeg)
 
