@@ -118,6 +118,8 @@ Key steps completed this round:
 - **Note:** Many NEMA 17 motors ship with connectors where the wire color order differs between the motor and driver ends. This was the case here — the pin order did not match. To correct it, I released the terminals from the connector housing using a small screwdriver and reseated them in the correct sequence.
 - Connected the NEMA 17 motor to the CNC shield via the X-axis A4988 driver.
 
+![Driver Calibration](docs/images/july27calibration.jpeg)
+
 ---
 
 ## Acknowledgments
