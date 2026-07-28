@@ -2,7 +2,7 @@
 
 An open-source, low-cost DIY DNA shearing device built on the [Poseidon syringe pump](https://github.com/machineagency/poseidon) platform — designed as an accessible alternative to commercial mechanical shearing instruments (e.g., Diagenode Megaruptor 3) for genomic library preparation workflows, particularly long-read sequencing (Oxford Nanopore).
 
-> **Status:** 🚧 In progress — components sourced, 3D printing and assembly underway.
+> **Status:** 🚧 In progress
 
 ---
 
