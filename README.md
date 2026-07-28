@@ -91,7 +91,7 @@ Key engineering choices and their rationale are documented in [`docs/DECISIONS.m
 
 ## Progress Log
 
-### July 2026
+### July 21 2026
 Mechanical assembly in progress. Key steps completed this round:
 
 - Drilled out the rod holes on the 3D-printed PLA parts to fit the guide rods — the as-printed tolerances were too tight, so holes were carefully widened with a drill bit until the rods slid through smoothly.
@@ -99,9 +99,24 @@ Mechanical assembly in progress. Key steps completed this round:
 - Threaded the brass (gold) lead screw nut onto the central leadscrew and secured it inside the carriage's nut trap with M3 screws, so it stays anti-rotated — this is what converts the leadscrew's rotation into linear motion, pulling the carriage along the two guide rods instead of just spinning freely with the screw.
 - Mounted the carriage onto the guide rods and confirmed it slides smoothly along the full travel range by turning the leadscrew by hand.
 
-![Progress Megaruptor](docs/images/foto1.jpeg)
+![Progress Megaruptor](docs/images/progreso_julio2026/foto1.jpeg)
 
-📹 [Watch the assembly video](ProgressJuly.mp4)
+📹 [Watch the assembly video](docs/images/progreso_julio2026/video1.mp4)
+
+### July 27, 2026
+
+**A4988 Driver Calibration — Complete**
+
+Key steps completed this round:
+
+- Installed jumper headers at each motor position on the CNC shield to configure 1/2-step mode.
+- Seated all four A4988 drivers into their respective positions on the CNC shield (X, Y, Z, and A axes).
+- Mounted the CNC shield onto the Arduino UNO.
+- Calibrated each A4988 driver to a reference voltage of 0.96V using a digital multimeter, with the negative probe on the CNC shield's GND pin and the positive probe used to measure the potentiometer during adjustment. This value was derived from: Vref = Imax × (8 × Rsense) = 1.2A × (8 × 0.1Ω) = 0.96V.
+- Voltage adjustments were made by turning each driver's onboard potentiometer with a small screwdriver while simultaneously monitoring voltage with the multimeter's positive probe.
+- Once all four drivers were calibrated to 0.96V, proceeded to connect the NEMA 17 stepper motor.
+- **Note:** Many NEMA 17 motors ship with connectors where the wire color order differs between the motor and driver ends. This was the case here — the pin order did not match. To correct it, I released the terminals from the connector housing using a small screwdriver and reseated them in the correct sequence.
+- Connected the NEMA 17 motor to the CNC shield via the X-axis A4988 driver.
 
 ---
 
