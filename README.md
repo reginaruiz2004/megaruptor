@@ -138,4 +138,4 @@ This project builds on the open-source [Poseidon](https://github.com/machineagen
 ## Author
 
 **Regina Ruiz** — Bioinformatics / Lab Sciences, Granatum Bioworks
-[GitHub](https://github.com/reginaruizb) · *(add site/LinkedIn link here)*
+[GitHub](https://github.com/reginaruizb)
