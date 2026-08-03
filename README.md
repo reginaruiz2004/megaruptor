@@ -1,8 +1,8 @@
 # Megaruptor
 
-An open-source, low-cost DIY DNA shearing device built on the [Poseidon syringe pump](https://github.com/machineagency/poseidon) platform — designed as an accessible alternative to commercial mechanical shearing instruments (e.g., Diagenode Megaruptor 3) for genomic library preparation workflows, particularly long-read sequencing (Oxford Nanopore).
+An open-source, low-cost DNA shearing device built on the [Poseidon syringe pump](https://github.com/machineagency/poseidon) platform — designed as an accessible alternative to commercial mechanical shearing instruments (e.g., Diagenode Megaruptor 3) for genomic library preparation workflows, particularly long-read sequencing (Oxford Nanopore).
 
-> **Status:** 🚧 In progress — components sourced, 3D printing and assembly underway.
+> **Status:** 🚧 In progress
 
 ---
 
@@ -117,8 +117,22 @@ Key steps completed this round:
 - Once all four drivers were calibrated to 0.96V, proceeded to connect the NEMA 17 stepper motor.
 - **Note:** Many NEMA 17 motors ship with connectors where the wire color order differs between the motor and driver ends. This was the case here — the pin order did not match. To correct it, I released the terminals from the connector housing using a small screwdriver and reseated them in the correct sequence.
 - Connected the NEMA 17 motor to the CNC shield via the X-axis A4988 driver.
+- Stripped two jumper wires and connected them to the CNC shield's positive (+) and negative (–) power terminals to interface with the barrel jack adapter.
 
 ![Driver Calibration](docs/images/july27calibration.jpeg)
+
+### August 3, 2026
+
+**NEMA 17 setup completed**
+
+Key steps completed this round:
+
+- Installed the NEMA17 into the megaruptor base support. Removed awkwardness when the NEMA17 motor turns on.
+- Switched the main central screw to a smaller length one so it can all properly fit with now the NEMA17 closer to the whole device.
+- I started having an issue with one of the rods whenever the cart moved forwards and backwards. The rod would also move with the cart's movements. To fix this, I setup longer screws in the base so that they would hold the rods in place without worry of any movement when the cart would begin to do its job.
+- Completed a design of 3d printed case for the CNC shield and arduino. There are 5 openings in the case: Arduino USB cable, Jack Barrel power source for Arduino, On/Off switch, cart switch, and an opening for the NEMA 17 wires.
+
+![Setup](docs/images/august3.jpeg)
 
 ---
 
@@ -137,4 +151,4 @@ This project builds on the open-source [Poseidon](https://github.com/machineagen
 ## Author
 
 **Regina Ruiz** — Bioinformatics / Lab Sciences, Granatum Bioworks
-[GitHub](https://github.com/reginaruizb) · *(add site/LinkedIn link here)*
+[GitHub](https://github.com/reginaruizb)
