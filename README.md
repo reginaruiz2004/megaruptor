@@ -121,6 +121,19 @@ Key steps completed this round:
 
 ![Driver Calibration](docs/images/july27calibration.jpeg)
 
+### August 3, 2026
+
+**NEMA 17 setup completed**
+
+Key steps completed this round:
+
+- Installed the NEMA17 into the megaruptor base support. Removed awkwardness when the NEMA17 motor turns on.
+- Switched the main central screw to a smaller length one so it can all properly fit with now the NEMA17 closer to the whole device.
+- I started having an issue with one of the rods whenever the cart moved forwards and backwards. The rod would also move with the cart's movements. To fix this, I setup longer screws in the base so that they would hold the rods in place without worry of any movement when the cart would begin to do its job.
+- Completed a design of 3d printed case for the CNC shield and arduino. There are 5 openings in the case: Arduino USB cable, Jack Barrel power source for Arduino, On/Off switch, cart switch, and an opening for the NEMA 17 wires.
+
+![Setup](docs/images/august3.jpeg)
+
 ---
 
 ## Acknowledgments
