@@ -134,6 +134,8 @@ Key steps completed this round:
 
 ![Setup](docs/images/august3.jpeg)
 
+![Casing](docs/images/casing.png)
+
 ---
 
 ## Acknowledgments
