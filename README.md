@@ -136,6 +136,17 @@ Key steps completed this round:
 
 ![Casing](docs/images/casing.png)
 
+### August 4, 2026
+
+**NEMA 17 setup completed**
+
+Key steps completed this round:
+
+- I 3d printed the case for the electrical components.
+- Switch assembly: On/Off switch, forwards/backwards switch that controls the cart movement
+
+![Case](docs/images/august4case.jpeg)
+![Complete machine](docs/images/august4progress.jpeg)
 ---
 
 ## Acknowledgments
