@@ -138,7 +138,7 @@ Key steps completed this round:
 
 ### August 4, 2026
 
-**NEMA 17 setup completed**
+**3D Printed Case**
 
 Key steps completed this round:
 
@@ -147,6 +147,19 @@ Key steps completed this round:
 
 ![Case](docs/images/august4case.jpeg)
 ![Complete machine](docs/images/august4progress.jpeg)
+
+### August 5, 2026
+
+**Complete setup of megaruptor**
+
+Key steps completed this round:
+
+- Connected the switch that moves the cart forwards and backwards. I connected it directly to the CNC shield instead of the Arduino. Why? Because all of the pins from the arduino are taken by the CNC shield since it is stacked. Therefore, there are pins in the CNC shield that are available to act as digital pins. (Y+ and Z- were used in this case)
+- Connected the on and off switch with the following circuit. Terminal 1 (LED) was connected to the gnd of the CNC shield. There was also a wire from CNC shield GND soldered to the Arduino GND pin of the jack barrel connector. Then Terminal 2 (common) was connected to the + of the CNC shield. And then terminal 3 of the switch was soldered to the + pin of the jack barrel terminal. Therefore, when you connect the jack barrel connector to the arduino, voltage has to first go through the switch before reaching the CNC shield.
+- After setting up all the necessary switches, it was time to set it up with the case. The switches went into their designated spots in the case and a zip tie was used to organize all loose wires. I plan to add magnets to the back of the NEMA17 and the case so the whole machine can be in one piece rather than two separate pieces.
+
+![Complete setup](docs/images/finallookaugust5.jpeg)
+
 ---
 
 ## Acknowledgments
